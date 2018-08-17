@@ -31,3 +31,10 @@ h1{
   color: lightblue;
   /* background-color: black; */
 }
+
+.matchedColor{
+  color : green;
+}
+.doubleMaches{
+  color:red;
+}
