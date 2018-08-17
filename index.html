@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>The title of my page</title>
-
-	<style type="text/css">
-  body{
-    text-align: center;
-  }
-  .number{
-    border: 1em solid pink;
-    height: 450px;
-    width: 450px;
-    margin-left: 150px;
-    margin-top: 50px;
-    background-color: #141315f0;
-  }
-  h1{
-    font-size: 200px;
-    text-align: center;
-    color: lightblue;
-    /* background-color: black; */
-  }
-	/* CSS goes here */
-	</style>
+	<link rel="stylesheet" href="css/matches.css">
 </head>
+
 <body>
 	<!-- HTML goes here -->
-  <div class="number">
-  <h1>6</h1>
-</div>
+	<div class="number">
+		<h1 class="six" id="six">6</h1>
+	</div>
+
+	<script type="text/javascript">
+
+
+	var number =document.querySelector(".number");
+
+		// JavaScript code goes here at the bottom
+		function getRandomInt() {
+			return Math.floor(Math.random() * 10);
+
+		}
+		console.log(getRandomInt(10));
+
+
+	var six = document.querySelector(".six");
+			six.innerHTML = getRandomInt()
+
+
+
+		document.addEventListener("DOMContentLoaded", function(six){
+
+		});
+	</script>
 </body>
+
 </html>
