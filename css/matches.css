@@ -1,16 +1,32 @@
 body{
-  text-align: center;
+  /* text-align: center; */
 }
 .number{
   border: 1em solid pink;
-  height: 450px;
-  width: 450px;
-  margin-left: 150px;
+  height: 250px;
+  width: 250px;
+  /* margin-left: 150px; */
+  margin-top: 50px;
+  background-color: #141315f0;
+}
+.number1{
+  border: 1em solid pink;
+  height: 250px;
+  width: 250px;
+  /* margin-left: 150px; */
+  margin-top: 50px;
+  background-color: #141315f0;
+}
+.number2{
+  border: 1em solid pink;
+  height: 250px;
+  width: 250px;
+  /* margin-left: 150px; */
   margin-top: 50px;
   background-color: #141315f0;
 }
 h1{
-  font-size: 200px;
+  font-size: 100px;
   text-align: center;
   color: lightblue;
   /* background-color: black; */
